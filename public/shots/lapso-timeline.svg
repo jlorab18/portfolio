@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" fill="#F3EFE7"/>
+  <text x="60" y="70" font-family="Consolas, monospace" font-size="15" fill="#6B675F" letter-spacing="2">CÓMO SE CALCULA EL TIEMPO — LAPSO</text>
+
+  <!-- timeline -->
+  <line x1="60" y1="250" x2="1140" y2="250" stroke="#111" stroke-width="2"/>
+  <rect x="100" y="226" width="340" height="48" rx="10" fill="#FFD23F" stroke="#111" stroke-width="2"/>
+  <text x="270" y="256" font-family="Arial, sans-serif" font-weight="700" font-size="17" fill="#111" text-anchor="middle">en marcha</text>
+  <rect x="440" y="226" width="220" height="48" rx="10" fill="#E4DDD0" stroke="#111" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="550" y="256" font-family="Arial, sans-serif" font-size="17" fill="#6B675F" text-anchor="middle">pausa</text>
+  <rect x="660" y="226" width="300" height="48" rx="10" fill="#FFD23F" stroke="#111" stroke-width="2"/>
+  <text x="810" y="256" font-family="Arial, sans-serif" font-weight="700" font-size="17" fill="#111" text-anchor="middle">en marcha</text>
+  <line x1="960" y1="200" x2="960" y2="300" stroke="#FF5A36" stroke-width="3"/>
+  <text x="960" y="190" font-family="Consolas, monospace" font-size="14" fill="#FF5A36" text-anchor="middle">ahora</text>
+
+  <!-- braces -->
+  <path d="M100 300 v14 h340 v-14" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="270" y="342" font-family="Consolas, monospace" font-size="16" fill="#111" text-anchor="middle">base (useRef)</text>
+  <path d="M660 300 v14 h300 v-14" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="810" y="342" font-family="Consolas, monospace" font-size="16" fill="#111" text-anchor="middle">now − start</text>
+
+  <text x="60" y="430" font-family="Georgia, serif" font-style="italic" font-size="40" fill="#111">tiempo = base + (performance.now() − start)</text>
+  <text x="60" y="470" font-family="Arial, sans-serif" font-size="16" fill="#6B675F">Se recalcula en cada fotograma con requestAnimationFrame: no acumula el desfase de un setInterval.</text>
+</svg>

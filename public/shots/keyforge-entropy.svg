@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" fill="#F3EFE7"/>
+  <text x="60" y="70" font-family="Consolas, monospace" font-size="15" fill="#6B675F" letter-spacing="2">CÓMO SE MIDE LA FUERZA — KEYFORGE</text>
+  <text x="60" y="160" font-family="Georgia, serif" font-style="italic" font-size="64" fill="#111">H = L × log₂(N)</text>
+  <text x="62" y="200" font-family="Arial, sans-serif" font-size="17" fill="#6B675F">L = longitud · N = tamaño del alfabeto elegido · H = bits de entropía</text>
+
+  <!-- scale 0..130 bits mapped to x 60..1140 -->
+  <rect x="60" y="300" width="415" height="18" fill="#F87171"/>
+  <rect x="475" y="300" width="249" height="18" fill="#FBBF24"/>
+  <rect x="724" y="300" width="416" height="18" fill="#34D399"/>
+  <g font-family="Consolas, monospace" font-size="13" fill="#6B675F">
+    <text x="60" y="342">0</text><text x="475" y="342" text-anchor="middle">50</text><text x="724" y="342" text-anchor="middle">80</text><text x="1140" y="342" text-anchor="end">130 bits</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="15" fill="#111">
+    <!-- 8 lowercase: 37.6 → x = 60 + 37.6*8.31 = 372 -->
+    <line x1="372" y1="290" x2="372" y2="250" stroke="#111" stroke-width="2"/><circle cx="372" cy="309" r="7" fill="#111"/>
+    <text x="372" y="240" text-anchor="middle">8 · minúsculas → 38</text>
+    <!-- 12 chars, 62 → 71.5 → x = 654 -->
+    <line x1="654" y1="290" x2="654" y2="250" stroke="#111" stroke-width="2"/><circle cx="654" cy="309" r="7" fill="#111"/>
+    <text x="654" y="240" text-anchor="middle">12 · +mayús +núm → 71</text>
+    <!-- 16 chars, 85 → 102.6 → x = 913 -->
+    <line x1="913" y1="290" x2="913" y2="250" stroke="#111" stroke-width="2"/><circle cx="913" cy="309" r="7" fill="#111"/>
+    <text x="913" y="240" text-anchor="middle">16 · todo → 103</text>
+  </g>
+
+  <text x="60" y="440" font-family="Arial, sans-serif" font-size="16" fill="#6B675F">Los caracteres se eligen con <tspan font-family="Consolas, monospace" fill="#111">crypto.getRandomValues()</tspan> en vez de <tspan font-family="Consolas, monospace" fill="#111">Math.random()</tspan>,</text>
+  <text x="60" y="466" font-family="Arial, sans-serif" font-size="16" fill="#6B675F">que no es apto para usos de seguridad.</text>
+</svg>

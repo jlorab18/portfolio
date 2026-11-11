@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#1a0b5c" flood-opacity=".35"/></filter>
+    <clipPath id="win"><rect width="1000" height="640" rx="16"/></clipPath>
+  </defs>
+  <rect width="1200" height="800" fill="#7B61FF"/>
+  <g transform="translate(100,96)" filter="url(#sh)">
+    <g clip-path="url(#win)">
+      <rect width="1000" height="640" fill="#FBF9F4"/>
+      <rect width="1000" height="42" fill="#ECE7DC"/>
+      <circle cx="24" cy="21" r="6" fill="#FF5F57"/><circle cx="44" cy="21" r="6" fill="#FEBC2E"/><circle cx="64" cy="21" r="6" fill="#28C840"/>
+      <rect x="380" y="11" width="240" height="20" rx="10" fill="#FBF9F4"/>
+      <text x="500" y="25" font-family="Consolas, monospace" font-size="11" fill="#6B675F" text-anchor="middle">localhost:5173/#demos</text>
+
+      <text x="80" y="120" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="44" fill="#111" letter-spacing="-1.5">KeyForge<tspan fill="#7B61FF">.</tspan></text>
+      <text x="82" y="148" font-family="Consolas, monospace" font-size="13" fill="#6B675F">contraseñas con aleatoriedad criptográfica</text>
+
+      <rect x="80" y="180" width="680" height="66" rx="14" fill="#F1EDE4" stroke="#D9D2C3"/>
+      <text x="106" y="222" font-family="Consolas, monospace" font-size="26" fill="#111" letter-spacing="1">q7#Vt9!xLm2$Rb8@kW4p</text>
+      <rect x="776" y="180" width="144" height="66" rx="14" fill="none" stroke="#111" stroke-width="2"/>
+      <text x="848" y="219" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="#111" text-anchor="middle">Copiar</text>
+
+      <text x="80" y="300" font-family="Arial, sans-serif" font-size="17" fill="#6B675F">Longitud: <tspan font-weight="700" fill="#111">20</tspan></text>
+      <rect x="80" y="320" width="840" height="8" rx="4" fill="#E4DDD0"/>
+      <rect x="80" y="320" width="400" height="8" rx="4" fill="#7B61FF"/>
+      <circle cx="480" cy="324" r="13" fill="#FBF9F4" stroke="#7B61FF" stroke-width="4"/>
+
+      <g font-family="Arial, sans-serif" font-size="17" fill="#111">
+        <rect x="80" y="368" width="22" height="22" rx="6" fill="#7B61FF"/><path d="M85 379 l4 4 l8 -9" stroke="#fff" stroke-width="2.5" fill="none"/>
+        <text x="112" y="385">Mayúsculas</text>
+        <rect x="260" y="368" width="22" height="22" rx="6" fill="#7B61FF"/><path d="M265 379 l4 4 l8 -9" stroke="#fff" stroke-width="2.5" fill="none"/>
+        <text x="292" y="385">Números</text>
+        <rect x="420" y="368" width="22" height="22" rx="6" fill="#7B61FF"/><path d="M425 379 l4 4 l8 -9" stroke="#fff" stroke-width="2.5" fill="none"/>
+        <text x="452" y="385">Símbolos</text>
+      </g>
+
+      <rect x="80" y="430" width="840" height="10" rx="5" fill="#E4DDD0"/>
+      <rect x="80" y="430" width="840" height="10" rx="5" fill="#34D399"/>
+      <text x="80" y="472" font-family="Consolas, monospace" font-size="14" fill="#111">≈ 128 bits de entropía · <tspan fill="#0E9F6E">muy fuerte</tspan></text>
+
+      <rect x="80" y="510" width="200" height="56" rx="28" fill="#111"/>
+      <text x="180" y="544" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="#FBF9F4" text-anchor="middle">Generar</text>
+    </g>
+  </g>
+</svg>

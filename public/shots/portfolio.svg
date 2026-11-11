@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000" flood-opacity=".22"/></filter>
+    <clipPath id="win"><rect width="1000" height="640" rx="8"/></clipPath>
+  </defs>
+  <rect width="1200" height="800" fill="#FF5A36"/>
+  <g transform="translate(100,96)" filter="url(#sh)">
+    <g clip-path="url(#win)">
+      <rect width="1000" height="640" fill="#F3F1EC"/>
+      <rect width="1000" height="40" fill="#E8E5DE"/>
+      <circle cx="22" cy="20" r="5.5" fill="#FF5F57"/><circle cx="40" cy="20" r="5.5" fill="#FEBC2E"/><circle cx="58" cy="20" r="5.5" fill="#28C840"/>
+      <rect x="380" y="10" width="240" height="20" rx="3" fill="#F3F1EC"/>
+      <text x="500" y="24" font-family="Consolas, monospace" font-size="11" fill="#75716A" text-anchor="middle">localhost:5173</text>
+      <rect x="0" y="40" width="380" height="2" fill="#FF5A36"/>
+      <!-- nav -->
+      <text x="40" y="88" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#111" letter-spacing="-.5">JCL<tspan font-size="10" dy="-6" fill="#FF5A36">©</tspan></text>
+      <text x="400" y="87" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#111">Proyectos      Sobre mí      Stack      Demos</text>
+      <rect x="806" y="68" width="34" height="30" rx="3" fill="none" stroke="#D8D4CB"/>
+      <text x="823" y="88" font-family="Arial, sans-serif" font-size="13" fill="#111" text-anchor="middle">☾</text>
+      <rect x="848" y="68" width="112" height="30" rx="3" fill="#111"/>
+      <text x="904" y="88" font-family="Arial, sans-serif" font-size="12" fill="#F3F1EC" text-anchor="middle">Contacto →</text>
+      <!-- hero -->
+      <text x="40" y="164" font-family="Consolas, monospace" font-size="11" fill="#75716A" letter-spacing="1.2">DESARROLLADOR DE SOFTWARE — PYTHON · JAVA · REACT</text>
+      <circle cx="790" cy="160" r="4" fill="#22C55E"/>
+      <text x="802" y="164" font-family="Arial, sans-serif" font-size="12" fill="#111">Disponible para nuevos proyectos</text>
+      <text x="36" y="262" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="88" fill="#111" letter-spacing="-5">CÓDIGO LIMPIO,</text>
+      <text x="150" y="340" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-weight="300" font-size="88" fill="#111" letter-spacing="-4">ideas que</text>
+      <text x="36" y="418" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="88" fill="#111" letter-spacing="-5">FUNCIONAN<tspan fill="#FF5A36">.</tspan></text>
+      <rect x="40" y="458" width="330" height="8" rx="2" fill="#D8D4CB"/>
+      <rect x="40" y="476" width="280" height="8" rx="2" fill="#D8D4CB"/>
+      <rect x="690" y="452" width="150" height="40" rx="3" fill="#FF5A36"/>
+      <text x="765" y="477" font-family="Arial, sans-serif" font-weight="600" font-size="13" fill="#111" text-anchor="middle">Ver proyectos →</text>
+      <rect x="850" y="452" width="110" height="40" rx="3" fill="none" stroke="#111"/>
+      <text x="905" y="477" font-family="Arial, sans-serif" font-size="13" fill="#111" text-anchor="middle">Probar demos</text>
+      <!-- cinta minimalista -->
+      <line x1="0" y1="544" x2="1000" y2="544" stroke="#D8D4CB"/>
+      <line x1="0" y1="616" x2="1000" y2="616" stroke="#D8D4CB"/>
+      <text x="-30" y="592" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="30" fill="#111" letter-spacing="-1">PYTHON <tspan fill="#FF5A36" font-weight="300">/</tspan> JAVA <tspan fill="#FF5A36" font-weight="300">/</tspan> JAVASCRIPT <tspan fill="#FF5A36" font-weight="300">/</tspan> REACT <tspan fill="#FF5A36" font-weight="300">/</tspan> HTML <tspan fill="#FF5A36" font-weight="300">/</tspan> CSS <tspan fill="#FF5A36" font-weight="300">/</tspan> BACKEND</text>
+    </g>
+  </g>
+</svg>

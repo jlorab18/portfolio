@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="sh" x="-20%" y="-10%" width="140%" height="130%"><feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#000" flood-opacity=".2"/></filter>
+    <clipPath id="ph1"><rect width="300" height="620" rx="38"/></clipPath>
+    <clipPath id="ph2"><rect width="300" height="620" rx="38"/></clipPath>
+  </defs>
+  <rect width="1200" height="800" fill="#E8E5DE"/>
+  <!-- móvil 1: tema claro -->
+  <g transform="translate(250,90)" filter="url(#sh)">
+    <rect x="-10" y="-10" width="320" height="640" rx="46" fill="#111"/>
+    <g clip-path="url(#ph1)">
+      <rect width="300" height="620" fill="#F3F1EC"/>
+      <rect x="110" y="12" width="80" height="22" rx="11" fill="#111"/>
+      <text x="22" y="76" font-family="Arial, sans-serif" font-weight="700" font-size="15" fill="#111">JCL<tspan font-size="9" dy="-5" fill="#FF5A36">©</tspan></text>
+      <rect x="220" y="60" width="26" height="26" rx="3" fill="none" stroke="#D8D4CB"/><text x="233" y="78" font-family="Arial" font-size="11" fill="#111" text-anchor="middle">☾</text>
+      <rect x="252" y="60" width="26" height="26" rx="3" fill="none" stroke="#D8D4CB"/><text x="265" y="78" font-family="Arial" font-size="12" fill="#111" text-anchor="middle">☰</text>
+      <text x="22" y="140" font-family="Consolas, monospace" font-size="8.5" fill="#75716A" letter-spacing="1">DESARROLLADOR DE SOFTWARE</text>
+      <text x="20" y="190" font-family="Arial, sans-serif" font-weight="700" font-size="38" fill="#111" letter-spacing="-2.5">CÓDIGO</text>
+      <text x="20" y="226" font-family="Arial, sans-serif" font-weight="700" font-size="38" fill="#111" letter-spacing="-2.5">LIMPIO,</text>
+      <text x="44" y="262" font-family="Arial, sans-serif" font-style="italic" font-weight="300" font-size="38" fill="#111" letter-spacing="-2">ideas que</text>
+      <text x="20" y="298" font-family="Arial, sans-serif" font-weight="700" font-size="38" fill="#111" letter-spacing="-2.5">FUNCIONAN<tspan fill="#FF5A36">.</tspan></text>
+      <rect x="22" y="322" width="240" height="7" rx="2" fill="#D8D4CB"/>
+      <rect x="22" y="337" width="200" height="7" rx="2" fill="#D8D4CB"/>
+      <rect x="22" y="362" width="128" height="34" rx="3" fill="#FF5A36"/>
+      <text x="86" y="384" font-family="Arial, sans-serif" font-weight="600" font-size="11" fill="#111" text-anchor="middle">Ver proyectos →</text>
+      <rect x="156" y="362" width="104" height="34" rx="3" fill="none" stroke="#111"/>
+      <text x="208" y="384" font-family="Arial, sans-serif" font-size="11" fill="#111" text-anchor="middle">Probar demos</text>
+      <line x1="0" y1="426" x2="300" y2="426" stroke="#D8D4CB"/>
+      <line x1="0" y1="472" x2="300" y2="472" stroke="#D8D4CB"/>
+      <text x="-8" y="456" font-family="Arial, sans-serif" font-weight="500" font-size="19" fill="#111" letter-spacing="-.8">PYTHON <tspan fill="#FF5A36">/</tspan> JAVA <tspan fill="#FF5A36">/</tspan> REACT</text>
+      <rect x="22" y="500" width="256" height="104" rx="5" fill="#FF5A36"/>
+    </g>
+  </g>
+  <!-- móvil 2: tema oscuro con menú abierto -->
+  <g transform="translate(650,90)" filter="url(#sh)">
+    <rect x="-10" y="-10" width="320" height="640" rx="46" fill="#111"/>
+    <g clip-path="url(#ph2)">
+      <rect width="300" height="620" fill="#111110"/>
+      <rect x="110" y="12" width="80" height="22" rx="11" fill="#000"/>
+      <text x="22" y="76" font-family="Arial, sans-serif" font-weight="700" font-size="15" fill="#F3F1EC">JCL<tspan font-size="9" dy="-5" fill="#FF6A48">©</tspan></text>
+      <rect x="252" y="60" width="26" height="26" rx="3" fill="none" stroke="#2A2927"/><text x="265" y="78" font-family="Arial" font-size="11" fill="#F3F1EC" text-anchor="middle">✕</text>
+      <g font-family="Arial, sans-serif" font-weight="500" font-size="32" fill="#F3F1EC" letter-spacing="-1.5">
+        <text x="22" y="160">Proyectos</text>
+        <text x="22" y="216">Sobre mí</text>
+        <text x="22" y="272">Stack</text>
+        <text x="22" y="328">Demos</text>
+        <text x="22" y="384" fill="#FF6A48">Contacto</text>
+      </g>
+      <g stroke="#2A2927"><line x1="22" y1="176" x2="278" y2="176"/><line x1="22" y1="232" x2="278" y2="232"/><line x1="22" y1="288" x2="278" y2="288"/><line x1="22" y1="344" x2="278" y2="344"/><line x1="22" y1="400" x2="278" y2="400"/></g>
+      <g font-family="Consolas, monospace" font-size="9" fill="#95918A">
+        <text x="260" y="156">01</text><text x="260" y="212">02</text><text x="260" y="268">03</text><text x="260" y="324">04</text><text x="260" y="380">05</text>
+      </g>
+    </g>
+  </g>
+</svg>
